@@ -59,7 +59,7 @@
 				<div class="col-lg-12 text-center">
 					<div class="section-title">
 						<h2>My Work</h2>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+						<p>Here you can find work produced over the past 5 years. It ranges from Radio Production to Photography to Graphic Design. Enjoy!</p>
 					</div>
 				</div>
 			</div>
@@ -198,7 +198,7 @@
 					<div class="col-lg-12 text-center">
 						<div class="section-title">
 							<h2>ABOUT</h2>
-                            <p>Radio student at Bournemouth University in my final year. Hoping to start a career in production and podcasts.</p>
+                            <p>I attended Bournemouth University studying Radio for three years. Here I discovered my enthusiasm for production. Now as an aspiring producer I aim to work in podcasting and imaging. I always strive for perfection and is safe to say always feels there’s room for improvement. </p>
 						</div>
 					</div>
 				</div>
@@ -222,7 +222,7 @@
 						<!-- skill bar item -->
 						<div class="skillbar-item">
 							<div class="skillbar" data-percent="80%">
-								<h3>Radio</h3>
+								<h3>Photography</h3>
 								<div class="skillbar-bar">
 									<div class="skillbar-percent" style="width: 80%;">
 									</div>
@@ -232,9 +232,9 @@
 						<!-- skill bar item -->
 						<div class="skillbar-item">
 							<div class="skillbar" data-percent="85%">
-								<h3>Radio</h3>
+								<h3>Graphic Design</h3>
 								<div class="skillbar-bar">
-									<div class="skillbar-percent" style="width: 85%;">
+									<div class="skillbar-percent" style="width: 60%;">
 									</div>
 								</div>
 							</div>
@@ -242,9 +242,9 @@
 						<!-- skill bar item -->
 						<div class="skillbar-item">
 							<div class="skillbar" data-percent="70%">
-								<h3>Radio</h3>
+								<h3>Baking</h3>
 								<div class="skillbar-bar">
-									<div class="skillbar-percent" style="width: 70%;">
+									<div class="skillbar-percent" style="width: 40%;">
 									</div>
 								</div>
 							</div>
@@ -322,14 +322,21 @@
 				</div>
 			</div>
 		</section>
-		<p id="back-top">
+		
+                        
+        <p id="back-top">
 			<a href="#top"><i class="fa fa-angle-up"></i></a>
 		</p>
+                        
 		<footer>
 			<div class="container text-center">
 				<p>Designed by <a href="http://hjager.com/hjager.com/"><span></span>hjager.com</a></p>
 			</div>
 		</footer>
+                        
+                        
+                        
+                        
 
 		<!-- Modal for portfolio item 1 -->
 		<div class="modal fade" id="Modal-1" tabindex="-1" role="dialog" aria-labelledby="Modal-label-1">
@@ -360,7 +367,22 @@
 						<h4 class="modal-title" id="Modal-label-2">Work 2</h4>
 					</div>
 					<div class="modal-body">
-						<img src="images/demo/portfolio-2.jpg" alt="img01" class="img-responsive" />
+						<div class="col-md-12">
+                            <audio id="audio" preload="auto"></audio>
+                            <div class="btn-group">
+                                <button onclick="Play('audio/MIA-LAINCHBURY-SHOW-REEL.mp3','audio');" class="btn btn-custom"><span title="Play" id="play" class="glyphicon glyphicon-play aligned"></span></button>
+                                <button onclick="Stop('music.mp3','audio');" class="btn btn-custom"><span title="Stop" id="stop" class="glyphicon glyphicon-stop aligned"></span></button>
+                                <button onclick="Restart('music.mp3','audio');" class="btn btn-custom"><span title="Restart" id="restart" class="glyphicon glyphicon-step-backward aligned"></span></button>
+                                <button onclick="Backward5('music.mp3','audio');" class="btn btn-custom"><span title="-5 seconds" id="play" class="glyphicon glyphicon-fast-backward aligned"></span></button>
+                                <button onclick="Forward5('music.mp3','audio');" class="btn btn-custom"><span title="+5 seconds" id="play" class="glyphicon glyphicon-fast-forward aligned"></span></button>
+                                <button onclick="Backward1('music.mp3','audio');" class="btn btn-custom"><span title="-1 second" id="play" class="glyphicon glyphicon-chevron-left aligned"></span></button>
+                                <button onclick="Forward1('music.mp3','audio');" class="btn btn-custom"><span title="+1 second" id="play" class="glyphicon glyphicon-chevron-right aligned"></span></button>
+                                <button onclick="VolumeUp('music.mp3','audio');" class="btn btn-custom"><span title="Volume Up" id="volumeup" class="glyphicon glyphicon-plus aligned"></span></button>
+                                <button onclick="VolumeDown('music.mp3','audio');" class="btn btn-custom"><span title="Volume Down" id="volumedown" class="glyphicon glyphicon-minus aligned"></span></button>
+                            </div>
+                            <br>
+                            <br>
+                        </div>
 						<div class="modal-works"><span>Radio</span><span>Radio</span></div>
 						<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe</p>
 					</div>
